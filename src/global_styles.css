@@ -12,6 +12,7 @@ html {
 
 .container {
   overflow: scroll;
+  width: max-content;
 }
 
 img {
