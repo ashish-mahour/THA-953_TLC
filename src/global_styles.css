@@ -1,0 +1,15 @@
+/* Add application styles & imports to this file! */
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.seat {
+  position: absolute;
+  border: 2px solid red;
+}
+
+.container {
+  overflow: scroll;
+}
