@@ -13,3 +13,7 @@ html {
 .container {
   overflow: scroll;
 }
+
+img {
+  max-width: none !important;
+}
