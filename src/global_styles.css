@@ -7,14 +7,19 @@ html {
 
 .seat {
   position: absolute;
-  border: 2px solid red;
 }
 
 .container {
   overflow: scroll;
   width: max-content;
+  display: flex;
 }
 
-img {
-  max-width: none !important;
+.content {
+  width: max-content;
+  z-index: -1;
+}
+
+.person-dragging {
+  border: 2px solid green;
 }
